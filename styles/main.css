@@ -1,73 +1,73 @@
-body {
-	background-color: #d9d9d9;
-	font-size: 87.5%;
-	font-family: Verdana, 'Lucida Sans Unicode';
-	line-height: 1.5;
-	text-align: left;
+.flex-container {
+	display: flex;
+	flex-direction: column;
+
+	width: 80%;
+
+	margin: 40px auto;
+
+	background-color: #525B56;	
+
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
-a {
-	text-decoration: none;
-}
-
-.body {
-	margin: 0 auto;
-	width: 70%;
-	clear: both; /* There's not gonna be any floating elements on the right or left */
-}
-
-.mainHeader h1{
+#mainHeader {
 	padding: 20px;
-	margin: 2% 0;
+	margin: 20px 10px;
 
 	font-size: 300%;
 
-	background-color: #b3b3b3;
+	background-color: #808080;
 
 	border-radius: 5px;
-	/*
-	The lines below ensure that the border are visible
-	on browser based on webkits.
-	*/
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
 
-/*
-It doesn't happen anything when I assign the value 25px
-to line-height. Why?
-*/
-.mainContent {
+#mainContent {
+	width: 92%;
+
+	margin: 0px auto 20px;	
+
 	line-height: 25px;
-	background-color: #b3b3b3;
+	
+	background-color: #BE9063;
+	
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	padding: 3% 5%;
-	margin: 2%;
+}
+
+.card-header {
+	margin: 10px 10px 10px;
 }
 
 .content {
-	line-height: 25px;
 	background-color: #808080;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+
 	padding: 1% 1%;
-	margin: 2%;
-}
+	margin: 0 10px 10px;
 
-.mainFooter {
-	width: 100%;
-	float: left;
-	background-color: #b3b3b3;
+	line-height: 25px;
+
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
 
-.mainFooter p {
-	color: #ffffff;
-	width: 92%;
+#mainFooter {
+	margin: 0px 10px 10px;
+
+	background-color: #808080;
+
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#mainFooter p {
 	margin: 10px auto;
+	padding-left: 10px;
 }
