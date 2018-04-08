@@ -14,10 +14,9 @@
 }
 
 #mainHeader {
-	padding: 20px;
-	margin: 20px 10px;
+	width: 96%;
 
-	font-size: 300%;
+	margin: 20px auto;
 
 	background-color: #808080;
 
@@ -26,8 +25,25 @@
 	-webkit-border-radius: 5px;
 }
 
+#mainHeader > img {
+	width: 20%;
+	height: auto;
+
+	padding: 10px;
+
+	float: left;
+
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#user-info {
+	float: left;
+}
+
 #mainContent {
-	width: 92%;
+	width: 96%;
 
 	margin: 0px auto 20px;	
 
@@ -58,7 +74,9 @@
 }
 
 #mainFooter {
-	margin: 0px 10px 10px;
+	width: 96%;
+
+	margin: 0px auto 10px;
 
 	background-color: #808080;
 
