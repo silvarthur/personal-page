@@ -6,7 +6,7 @@
 
 	margin: 40px auto;
 
-	background-color: #525B56;	
+	background-color: #6C6B74;	
 
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -18,7 +18,7 @@
 
 	margin: 20px auto;
 
-	background-color: #808080;
+	background-color: #54678F;
 
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -42,6 +42,10 @@
 	float: left;
 }
 
+#user-info > p > a{
+	color: #000000;
+}
+
 #mainContent {
 	width: 96%;
 
@@ -49,7 +53,7 @@
 
 	line-height: 25px;
 	
-	background-color: #BE9063;
+	background-color: #54678F;
 	
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -57,11 +61,11 @@
 }
 
 .card-header {
-	margin: 10px 10px 10px;
+	margin: 20px 10px 10px;
 }
 
 .content {
-	background-color: #808080;
+	background-color: #9199BE;
 
 	padding: 1% 1%;
 	margin: 0 10px 10px;
@@ -78,14 +82,14 @@
 
 	margin: 0px auto 10px;
 
-	background-color: #808080;
+	background-color: #54678F;
 
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
 
-#mainFooter p {
+#mainFooter > p {
 	margin: 10px auto;
 	padding-left: 10px;
 }
